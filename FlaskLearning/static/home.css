@@ -1,0 +1,101 @@
+body {
+    margin: 0;
+}
+.header {
+    width: 1800;
+    height: 800px;
+    background-image: url(https://forum-eurasica.ru/uploads/1353222222/large.gallery_8583_5_51960.jpg.acc7c47a4b122310700f7c9cf848c324.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: gold;
+}
+.header h2{
+    margin-top: 0;
+    font-size: 36px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-block: 40px;
+    text-align: center;         
+}   
+.imgHeader1 {
+    margin: 15px;
+    float: left;
+    width: 200px;
+    height: 180px;
+}
+.imgHeader2 {
+    margin: 20px;
+    float: right;
+    width: 370px;
+    height: 180px;
+}
+
+    .navigation { 
+        text-align: center;
+        float: none;
+        background-color: rgb(206, 180, 147);
+        overflow: hidden;
+        width: 100%;
+    }
+    .navigation a {
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 16px;
+        float: left;
+        display: block;
+        color: black;
+        text-align: center;
+        padding: 14px 20px;
+        text-decoration: none;
+    }
+    .navigation a:hover {
+        background-color: rgb(211, 167, 113);
+        color: rgb(0, 0, 0);
+    }
+    .navigation a.right {
+        float: right;
+    }
+    .side {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', sans-serif;
+        flex: 45%;
+        background-color: rgb(249, 235, 209);
+        padding: 120px;
+        font-size: 20px;
+    }
+    .side h2{
+        text-align: center;
+    }
+    * {
+        box-sizing: border-box;
+    }
+
+    .Nokis {
+        font-size: 20px;
+        font-weight: bold
+    }
+    span {
+        font-weight: bold
+    }
+    img {
+        text-align: center;
+        width: 1200px;
+        height: 590px;
+    }
+    .History {
+        font-size: 20px;
+    }
+    .History h2{
+        font-size: 26px;
+    }
+    .allImages {
+    text-align: center;
+    }
+    
+.footer {
+    color: rgb(199, 199, 140);
+    text-align: center;
+    padding: 30px;
+    background-color: rgb(44, 40, 40);
+}
+.footer p {
+    color: gold;
+}

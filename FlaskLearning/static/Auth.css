@@ -1,0 +1,51 @@
+body {
+    text-align: center;
+    margin: 0;
+    background-color: grey;
+}
+.divAuth {
+    margin: 0;
+}
+.autorization {
+    height: 200px;
+    margin: 0;    
+    background-color: rgb(174, 174, 174);
+    text-align: center;
+    margin-top: 30px;
+}
+.navigation { 
+    text-align: center;
+    float: none;
+    background-color: rgb(165, 153, 153);
+    overflow: hidden;
+    width: 100%;
+}
+.navigation a {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+.navigation a:hover {
+    background-color: rgb(211, 167, 113);
+    color: rgb(0, 0, 0);
+}
+.navigation a.right {
+    float: right;
+}
+.party1 {
+    float: left;
+    width: 500px;
+    height: 400px;
+    background-color: darkgrey;
+}
+.party2 {
+    float: right;
+    width: 500px;
+    height: 400px;
+    background-color: darkgrey;
+}
